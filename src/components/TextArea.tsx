@@ -8,7 +8,7 @@ interface TextAreaProps {
   value: string
 }
 
-const commonStyles = { border: 0, height: '200px', resize: 'none' }
+const commonStyles = { border: 0, height: '200px', resize: 'none' as 'none' }
 
 const getPlaceHolder = ({ type, loading }: { type: SectionType, loading?: boolean }) => {
   if (loading === true) {
@@ -23,7 +23,7 @@ const getPlaceHolder = ({ type, loading }: { type: SectionType, loading?: boolea
 export const TextArea = ({ type, loading, value, onChange }: TextAreaProps) => {
   const styles = type === SectionType.From
     ? commonStyles
-    : { ...commonStyles, backgroundColor: '#f5f5f5' }
+    : { ...commonStyles, backgroundColor: '#e1e1e1' }
 
   const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     onChange(event.target.value)

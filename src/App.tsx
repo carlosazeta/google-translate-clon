@@ -44,7 +44,7 @@ function App () {
           </Button>
         </Col>
         <Col>
-        <Stack gap={3}>
+        <Stack gap={2}>
         <LanguageSelector
           type={SectionType.To}
           value={toLanguage}
