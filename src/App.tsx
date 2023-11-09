@@ -23,7 +23,7 @@ function App () {
   } = useTranslator()
   return (
     <Container fluid>
-      <h2>Google Translate</h2>
+      <h2 className='h2'>Google Translate Component</h2>
       <Row>
         <Col>
         <Stack gap={2}>
