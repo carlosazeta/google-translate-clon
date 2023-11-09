@@ -1,7 +1,7 @@
 # Google Translate clon component
 - This is a clone of the Google Translate made with React and TypeScript.
 - The component has all the necessary logic implemented, it is ready to make an API call.
-- You can try it clicking [HERE](https://vercel.com/carlosazetas-projects/google-translate-clon)
+- You can try it clicking [HERE](https://google-translate-clon-gules.vercel.app/)
 
 ## Images
 
